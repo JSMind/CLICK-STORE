@@ -39,14 +39,14 @@ class Subcategoria{                     //Definimos nuestra clase Subcategoria
 }
 
 
-const idcategoria = localStorage.getItem('idcategoria')
+const idcategoria = localStorage.getItem('idcategoria')                             //Se recupera el estado de la variable "idcategoria"
 Subcategoria.obtenerSubcategorias( 'http://localhost:3000/categoria='+idcategoria)  //Aqui se inicializa el codigo
 
 const botonSubcategoria = document.querySelector(".container")                      //Evento que detecta la seleccion de la subcategoria del usuario
 botonSubcategoria.addEventListener("click", e => {
     if (e.target.classList.contains("btn-subcategoria")){
         const idsubcategoria= e.target.dataset.id
-        localStorage.setItem('idsubcategoria', idsubcategoria)     
+        localStorage.setItem('idsubcategoria', idsubcategoria)                      //se guarda en el localstorage el valor de "idsubcategoria"
     }  
 })
 

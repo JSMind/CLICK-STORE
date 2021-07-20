@@ -35,13 +35,13 @@ class Categoria{                            //Definimos nuestra clase Categoria
 }
 
 document.addEventListener("DOMContentLoaded", e => 
-Categoria.obtenerCategorias('http://localhost:3000/'));            //Aqui se inicializa el codigo
+Categoria.obtenerCategorias('http://localhost:3000/'));             //Aqui se inicializa el codigo
 
-const botonCategoria = document.querySelector(".navbar-collapse")  //Evento que detecta la seleccion de la categoria del usuario
-botonCategoria.addEventListener("click", e => {
+const botonCategoria = document.querySelector(".navbar-collapse")  
+botonCategoria.addEventListener("click", e => {                     //Evento que detecta la seleccion de la categoria del usuario
     if (e.target.classList.contains("btn-categoria")){
         const idcategoria= e.target.dataset.id
-        localStorage.setItem('idcategoria', idcategoria)
+        localStorage.setItem('idcategoria', idcategoria)            //Se guarda la variable "idcategoria" en el localstorage
     }  
 })
 
