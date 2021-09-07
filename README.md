@@ -2,7 +2,7 @@
 
 En este proyecto se realiza el backend y el fronted de una pagina que consume los productos por categoria de la API de Mercado Libre, como preambulo a la creacion de una Tienda en Linea que tiene por nombre Click Store, y puede encontrarse tambien en el repositorio de Jair Serralde, donde la diferencia es que ahi se realiza un CRUD completo para que los productos que se muestren sean locales, es decir dados de alta por el Usuario administrador, ademas de que el usuario cliente podra registrarse para crear una cuenta segura y realizar compras, contando con un carrito de compras.
 
-En este proyecto se muestran todas las categorias que actualmente posee Mercado Libre y se muestran informacion relativa al producto como lo son el titulo, el precio y la imagen. 
+En este proyecto se muestran todas las categorias y subcategorias que actualmente posee Mercado Libre y se muestran informacion relativa al producto como lo son el titulo, el precio y la imagen. 
 
 Para poder acceder al proyecto, es necesario seguir los siguientes pasos:
 1. Clonar el repositorio con la instrucción:
