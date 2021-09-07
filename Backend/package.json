@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JSMind/CLICK-STORE.git"
+    "url": "git+https://github.com/JSMind/Tienda-en-Linea-CONSUMO-API-Mercado-Libre-.git"
   },
   "author": "Jair Serralde, Daniel Sotelo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JSMind/CLICK-STORE/issues"
+    "url": "https://github.com/JSMind/Tienda-en-Linea-CONSUMO-API-Mercado-Libre-/issues"
   },
-  "homepage": "https://github.com/JSMind/CLICK-STORE#readme",
+  "homepage": "https://github.com/JSMind/Tienda-en-Linea-CONSUMO-API-Mercado-Libre-#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
