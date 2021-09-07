@@ -15,9 +15,11 @@ Para poder acceder al proyecto, es necesario seguir los siguientes pasos:
 
 
 3. Debe crearse el archivo .ENV con las variables de entorno para realizar la conexion del servidor en el Host y Port deseado. Como tambien debera escribir en el las siguientes variables:
-                  CATEGORIAS = 'https://api.mercadolibre.com/sites/MLM/categories'
-                  SUBCATEGORIAS = 'https://api.mercadolibre.com/categories/'
-                  PRODUCTOS = 'https://api.mercadolibre.com/sites/MLM/search?category='
+
+
+                  - CATEGORIAS = 'https://api.mercadolibre.com/sites/MLM/categories'  
+                  - SUBCATEGORIAS = 'https://api.mercadolibre.com/categories/'   
+                  - PRODUCTOS = 'https://api.mercadolibre.com/sites/MLM/search?category='  
 
 4. Después de instalar los modulos, es preciso inicializar el servidor al ejecutar la siguiente línea de comando:
             
