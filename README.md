@@ -25,4 +25,4 @@ Para poder acceder al proyecto, es necesario seguir los siguientes pasos:
             
             npm run dev
       
-5. Para observar nuestra pagína web, se debe ejecutar el archivo encontrado en la carpeta 'frontend > index.html'
+5. Para observar nuestra pagína web, se debe ejecutar el archivo encontrado en la carpeta 'frontend > index.html' con la extension para Visual Studio Code "Live Server", o la que sea de su preferencia.
